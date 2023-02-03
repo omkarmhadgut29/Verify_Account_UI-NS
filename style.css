@@ -1,0 +1,55 @@
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.container {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    min-height: 500px;
+    min-width: 600px;
+}
+
+.containt {
+    text-align: center;
+}
+
+.take-input {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+input[type="text"] {
+    width: 65px;
+    height: 100px;
+    line-height: 1;
+    margin: 0.1em;
+    padding: 8px 0px 4px;
+    font-size: 70px;
+    text-align: center;
+    appearance: textfield;
+    -webkit-appearance: textfield;
+    border: 2px solid #BBBBFF;
+    color: purple;
+    border-radius: 4px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.note-div {
+    display: flex;
+    justify-content: center;
+}
+
+.note {
+    background-color: #cecece;
+    width: 430px;
+    border-radius: 8px;
+}
